@@ -1,0 +1,79 @@
+﻿生成启动时间为 2017/12/27 15:04:29。
+     1>项目“C:\360Downloads\CHuaban\huaban.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing mainwindow.h...
+         Uic'ing mainwindow.ui...
+         Moc'ing textedititem.h...
+     1>C:\360Downloads\CHuaban\textedititem.h(38): warning : Class TexteditItem inherits from two QObject subclasses QObject and QGraphicsTextItem. This is not supported!
+         Moc'ing rectbounditem.h...
+         Moc'ing linetoitem.h...
+         Moc'ing myselfitem.h...
+     1>C:\360Downloads\CHuaban\myselfitem.h(30): warning : Class MySelfItem implements the interface QGraphicsItem but does not list it in Q_INTERFACES. qobject_cast to QGraphicsItem will not work!
+         Moc'ing towtestview.h...
+         Moc'ing firsttest.h...
+         Moc'ing circleitem.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_circleitem.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_circleitem.cpp, GeneratedFiles\Release\moc_circleitem.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_firsttest.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_firsttest.cpp, GeneratedFiles\Release\moc_firsttest.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_linetoitem.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_linetoitem.cpp, GeneratedFiles\Release\moc_linetoitem.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mainwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_mainwindow.cpp, GeneratedFiles\Release\moc_mainwindow.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_myselfitem.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_myselfitem.cpp, GeneratedFiles\Release\moc_myselfitem.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_rectbounditem.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_rectbounditem.cpp, GeneratedFiles\Release\moc_rectbounditem.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_textedititem.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_textedititem.cpp, GeneratedFiles\Release\moc_textedititem.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_towtestview.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_towtestview.cpp, GeneratedFiles\Release\moc_towtestview.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I..\..\qt\qt5.5.1\5.5\msvc2013\include /I..\..\qt\qt5.5.1\5.5\msvc2013\include\QtWidgets /I..\..\qt\qt5.5.1\5.5\msvc2013\include\QtGui /I..\..\qt\qt5.5.1\5.5\msvc2013\include\QtANGLE /I..\..\qt\qt5.5.1\5.5\msvc2013\include\QtCore /Idebug /I. /I"..\..\qt\qt5.5.1\5.5\msvc2013\mkspecs\win32-msvc2013" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -w34100 -w34189 -w44996 circleitem.cpp firsttest.cpp GeneratedFiles\Debug\moc_circleitem.cpp GeneratedFiles\Debug\moc_firsttest.cpp GeneratedFiles\Debug\moc_linetoitem.cpp GeneratedFiles\Debug\moc_mainwindow.cpp GeneratedFiles\Debug\moc_myselfitem.cpp GeneratedFiles\Debug\moc_rectbounditem.cpp GeneratedFiles\Debug\moc_textedititem.cpp GeneratedFiles\Debug\moc_towtestview.cpp linetoitem.cpp main.cpp mainwindow.cpp mylabshow.cpp myselfitem.cpp objitem.cpp rectbounditem.cpp textedititem.cpp towtestview.cpp
+         circleitem.cpp
+         firsttest.cpp
+         moc_circleitem.cpp
+         moc_firsttest.cpp
+         moc_linetoitem.cpp
+         moc_mainwindow.cpp
+         moc_myselfitem.cpp
+         moc_rectbounditem.cpp
+         moc_textedititem.cpp
+     1>c:\360downloads\chuaban\generatedfiles\debug\../../textedititem.h(9): warning C4584: “TexteditItem”: 基类“QObject”已是“QGraphicsTextItem”的基类
+                 c:\qt\qt5.5.1\5.5\msvc2013\include\qtcore\qobject.h(107) : 参见“QObject”的声明
+                 c:\qt\qt5.5.1\5.5\msvc2013\include\qtwidgets\qgraphicsitem.h(865) : 参见“QGraphicsTextItem”的声明
+         moc_towtestview.cpp
+         linetoitem.cpp
+         main.cpp
+         mainwindow.cpp
+         mylabshow.cpp
+         myselfitem.cpp
+         objitem.cpp
+         rectbounditem.cpp
+         textedititem.cpp
+     1>c:\360downloads\chuaban\textedititem.h(9): warning C4584: “TexteditItem”: 基类“QObject”已是“QGraphicsTextItem”的基类
+                 c:\qt\qt5.5.1\5.5\msvc2013\include\qtcore\qobject.h(107) : 参见“QObject”的声明
+                 c:\qt\qt5.5.1\5.5\msvc2013\include\qtwidgets\qgraphicsitem.h(865) : 参见“QGraphicsTextItem”的声明
+         towtestview.cpp
+     1>c:\360downloads\chuaban\textedititem.h(9): warning C4584: “TexteditItem”: 基类“QObject”已是“QGraphicsTextItem”的基类
+                 c:\qt\qt5.5.1\5.5\msvc2013\include\qtcore\qobject.h(107) : 参见“QObject”的声明
+                 c:\qt\qt5.5.1\5.5\msvc2013\include\qtwidgets\qgraphicsitem.h(865) : 参见“QGraphicsTextItem”的声明
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\huaban.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013\lib /LIBPATH:C:/qt/qt5.5.1/5.5/msvc2013/lib /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013\lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\qtmaind.lib shell32.lib C:/qt/qt5.5.1/5.5/msvc2013/lib\Qt5Cored.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5Widgetsd.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5Guid.lib C:\Qt\Qt5.5.1\5.5\msvc2013\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\huaban.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Debug\circleitem.obj
+         Win32\Debug\firsttest.obj
+         Win32\Debug\moc_circleitem.obj
+         Win32\Debug\moc_firsttest.obj
+         Win32\Debug\moc_linetoitem.obj
+         Win32\Debug\moc_mainwindow.obj
+         Win32\Debug\moc_myselfitem.obj
+         Win32\Debug\moc_rectbounditem.obj
+         Win32\Debug\moc_textedititem.obj
+         Win32\Debug\moc_towtestview.obj
+         Win32\Debug\linetoitem.obj
+         Win32\Debug\main.obj
+         Win32\Debug\mainwindow.obj
+         Win32\Debug\mylabshow.obj
+         Win32\Debug\myselfitem.obj
+         Win32\Debug\objitem.obj
+         Win32\Debug\rectbounditem.obj
+         Win32\Debug\textedititem.obj
+         Win32\Debug\towtestview.obj
+         huaban.vcxproj -> C:\360Downloads\CHuaban\debug\huaban.exe
+     1>已完成生成项目“C:\360Downloads\CHuaban\huaban.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.83
